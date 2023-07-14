@@ -38,8 +38,8 @@
                       <th scope="col">Alamat</th>
                       <th scope="col">No HP</th>
                       <th scope="col">No KTP</th>
-                      <th scope="col">No Seri</th>
-                      <th scope="col">Meteran</th>
+                      <th scope="col">Tanggal</th>
+                      <th scope="col">Jumlah Gas</th>
                       <th scope="col">Aktif</th>
                       <th scope="col">Action</th>
                     </tr>

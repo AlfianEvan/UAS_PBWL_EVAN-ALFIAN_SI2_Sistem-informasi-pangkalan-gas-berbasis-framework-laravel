@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="{{ asset('img/listrik.jpeg') }}">
-    <title>{{ $title }} | E-PLN</title>
+    <link rel="icon" href="{{ asset('img/listrik.png') }}">
+    <title>{{ $title }} | E-LPG</title>
 
     {{-- my style --}}
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -21,10 +21,10 @@
     {!! session('berhasilLogin') !!}
     @endif
 
-    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-danger">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-success">
         <!-- Navbar Brand-->
         <a class="navbar-brand ps-3" href="/home">
-            <img src="{{ asset('img/listrik.jpeg') }}" class="rounded-circle" width="30px"> VANZ-PLN
+            <img src="{{ asset('img/listrik.png') }}" class="rounded-circle" width="65px"> TIRTAJAYA-LPG
         </a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
@@ -43,7 +43,7 @@
     </nav>
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
-            <nav class="sb-sidenav accordion sb-sidenav-dark" style="background-color: rgb(161, 38, 38)"id="sidenavAccordion">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" style="background-color: rgb(5, 90, 59)"id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
                         <div class="sb-sidenav-menu-heading">Core</div>
@@ -63,7 +63,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="sb-sidenav-footer bg-danger">
+                <div class="sb-sidenav-footer bg-success">
                     <div class="small">Logged in as:</div>
                     {{ auth()->user()->user_nama }}
                 </div>

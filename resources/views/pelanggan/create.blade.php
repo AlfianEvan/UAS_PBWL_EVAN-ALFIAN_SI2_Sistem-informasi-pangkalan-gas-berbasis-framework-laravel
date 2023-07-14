@@ -79,11 +79,11 @@
                 </div>
                 <div class="row mb-3">
                     <div class="col-md-6">
-                        <label for="pel_seri" class="form-label">No Seri</label>
+                        <label for="pel_seri" class="form-label">Tanggal</label>
                         <input type="text" name="pel_seri" class="form-control" id="pel_seri" placeholder="Input no seri" value="{{ old('pel_seri') }}" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="pel_ktp" class="form-label">Meteran</label>
+                        <label for="pel_ktp" class="form-label">Jumlah Gas</label>
                         <input type="number" min="0" name="pel_meteran" class="form-control" id="pel_meteran" placeholder="Input meteran" value="{{ old('pel_meteran') }}" required>
                     </div>
                 </div>

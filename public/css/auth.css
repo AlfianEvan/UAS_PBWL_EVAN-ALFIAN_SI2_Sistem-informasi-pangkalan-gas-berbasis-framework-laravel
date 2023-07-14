@@ -41,7 +41,7 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4141c2;
+  background: #0e976e;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -97,12 +97,12 @@
   text-decoration: none;
 }
 .container .info span .fa {
-  color: #10848c;
+  color: #108c4e;
 }
 body {
-  background: #10848c; /* fallback for old browsers */
-  background: #10848c;
-  background: linear-gradient(90deg, #10848c 0%, #10848c 50%);
+  background: #108c4e; /* fallback for old browsers */
+  background: #108c4e;
+  background: linear-gradient(90deg, #108c4e 0%, #108c4e 50%);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
